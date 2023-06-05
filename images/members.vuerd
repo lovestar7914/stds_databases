@@ -514,7 +514,7 @@
           "active": false,
           "left": 896.6665,
           "top": 373.3335,
-          "zIndex": 203,
+          "zIndex": 213,
           "widthName": 60,
           "widthComment": 60
         },
@@ -550,7 +550,7 @@
           },
           {
             "name": "HOBBY_CODE_ID",
-            "comment": "취미 _ID",
+            "comment": "취미 명",
             "dataType": "VARCHAR",
             "default": "",
             "option": {
@@ -576,7 +576,7 @@
           "active": false,
           "left": 0,
           "top": 167.5026,
-          "zIndex": 209,
+          "zIndex": 212,
           "widthName": 92.3017578125,
           "widthComment": 60,
           "color": "#E91E78"
