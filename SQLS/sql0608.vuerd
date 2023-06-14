@@ -1,0 +1,66 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -440.8359374006589,
+    "scrollLeft": -1100.2109375,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [],
+    "indexes": []
+  },
+  "memo": {
+    "memos": [
+      {
+        "value": "SELECT T_MEMS.*, T_MEMS_LOGIN.EMAIL,T_GENDERS.GENDER\nFROM (Orders AS T_MEMS\n\tINNER JOIN members_login AS T_MEMS_LOGIN\n    ON T_MEMS.MEMBERS_ID = T_MEMS_LOGIN.MEMBERS_ID\n    and T_MEMS.MEMBERS_ID ='M-02'\n\t)\n\tINNER JOIN gender_code AS T_GENDERS\n    ON T_MEMS.GENDER_CODE_ID = T_GENDERS.GENDER_CODE_ID\n;",
+        "ui": {
+          "active": false,
+          "left": 1301.0442708002197,
+          "top": 540.8359374006588,
+          "zIndex": 3,
+          "width": 127,
+          "height": 100
+        },
+        "id": "77825990-6794-408e-91cc-9808cf3cfde7"
+      }
+    ]
+  },
+  "relationship": {
+    "relationships": []
+  }
+}
