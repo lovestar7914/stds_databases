@@ -189,7 +189,7 @@
           "active": false,
           "left": 498.1266,
           "top": 197.2929,
-          "zIndex": 6,
+          "zIndex": 3,
           "widthName": 67.72998046875,
           "widthComment": 60
         },
@@ -274,7 +274,7 @@
           "active": false,
           "left": 989.1898,
           "top": 181.1121,
-          "zIndex": 7,
+          "zIndex": 4,
           "widthName": 115.41357421875,
           "widthComment": 70.61181640625,
           "color": "#FF4A3B"
@@ -360,7 +360,7 @@
           "active": false,
           "left": 1.6669,
           "top": 0,
-          "zIndex": 4,
+          "zIndex": 8,
           "widthName": 92.3017578125,
           "widthComment": 60
         },
@@ -467,8 +467,8 @@
         "ui": {
           "active": false,
           "left": 0,
-          "top": 256.6706,
-          "zIndex": 5,
+          "top": 417.782,
+          "zIndex": 7,
           "widthName": 120.47265625,
           "widthComment": 61.22998046875
         },
@@ -553,7 +553,7 @@
           "active": false,
           "left": 971.6666,
           "top": 555.8332,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -583,7 +583,7 @@
           "active": false,
           "left": 897.4999722838419,
           "top": 11.666670176717837,
-          "zIndex": 2,
+          "zIndex": 6,
           "width": 127,
           "height": 100
         },
@@ -690,7 +690,7 @@
             "a5a83327-fe31-42d8-9a23-81ef8f7a3cde"
           ],
           "x": 219.657958984375,
-          "y": 256.6706,
+          "y": 417.782,
           "direction": "top"
         },
         "constraintName": "fk_hobby_code_to_members_hobby",
