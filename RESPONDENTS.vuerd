@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
+    "scrollTop": -54.86110893112655,
+    "scrollLeft": -36.80555409303424,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -120,7 +120,7 @@
           "active": false,
           "left": 695.8326,
           "top": 61.8059,
-          "zIndex": 336,
+          "zIndex": 4,
           "widthName": 100.9599609375,
           "widthComment": 60
         },
@@ -182,7 +182,7 @@
           "active": false,
           "left": 697.9157,
           "top": 273.6124,
-          "zIndex": 323,
+          "zIndex": 3,
           "widthName": 78.5654296875,
           "widthComment": 60
         },
@@ -244,7 +244,7 @@
           "active": false,
           "left": 56.9434,
           "top": 510.4172,
-          "zIndex": 322,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -306,7 +306,7 @@
           "active": false,
           "left": 704.1656,
           "top": 516.6682,
-          "zIndex": 319,
+          "zIndex": 1,
           "widthName": 127.68359375,
           "widthComment": 60
         },
@@ -364,6 +364,29 @@
             "id": "b9cf7816-be54-4b55-bef1-c81bcbdaa3f2"
           },
           {
+            "name": "QUESYIONS_ID",
+            "comment": "설문 문항 코드",
+            "dataType": "VARCHAR(50)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 99.525390625,
+              "widthComment": 87.2236328125,
+              "widthDataType": 87.71875,
+              "widthDefault": 60
+            },
+            "id": "8da6f63f-0532-4fcd-9e27-e9be279bfda2"
+          },
+          {
             "name": "CHOICE_ID",
             "comment": "설문 답항 코드",
             "dataType": "VARCHAR(50)",
@@ -408,36 +431,13 @@
               "widthDefault": 60
             },
             "id": "430adb59-9b32-497f-8266-bea5a93f2ccd"
-          },
-          {
-            "name": "QUESYIONS_ID",
-            "comment": "설문 문항 코드",
-            "dataType": "VARCHAR(50)",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 99.525390625,
-              "widthComment": 87.2236328125,
-              "widthDataType": 87.71875,
-              "widthDefault": 60
-            },
-            "id": "8da6f63f-0532-4fcd-9e27-e9be279bfda2"
           }
         ],
         "ui": {
           "active": false,
           "left": 26.3895,
           "top": 30.5571,
-          "zIndex": 349,
+          "zIndex": 19,
           "widthName": 75.1884765625,
           "widthComment": 60
         },
